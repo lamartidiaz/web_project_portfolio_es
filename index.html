@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio personal de desarrollo web" />
+
+    <title>Portafolio</title>
+
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <main class="content">
+        <!-- PERFIL -->
+        <section class="profile">
+          <div class="profile__content">
+            <h1 class="profile__title">Martha Díaz</h1>
+
+            <p class="profile__subtitle">
+              Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
+            </p>
+
+            <p class="profile__description">
+              Desarrolladora web junior con experiencia práctica creando
+              interfaces limpias y responsivas con HTML, CSS, JavaScript y
+              React, así como implementando lógica básica de back-end. Ha
+              trabajado en proyectos formativos que siguen procesos reales de
+              desarrollo, usando Git, GitHub y Figma. Disfruta colaborar en
+              equipo, mantener un código claro y resolver problemas de forma
+              estructurada. Motivada por seguir aprendiendo, asumir nuevos retos
+              y aprovechar oportunidades para crecer como desarrolladora.
+            </p>
+
+            <div class="profile__links">
+              <a class="profile__link" href="#">Descargar CV</a>
+
+              <a class="profile__link" href="#" target="_blank">
+                Enlace a GitHub
+              </a>
+
+              <a class="profile__link" href="#contact">Hablemos</a>
+            </div>
+          </div>
+
+          <div class="profile__ellipse" aria-hidden="true"></div>
+
+          <img
+            class="profile__image"
+            src="./images/profile-photo.png"
+            alt="Foto de perfil de Martha Diaz"
+          />
+        </section>
+
+        <!-- HABILIDADES Y HERRAMIENTAS -->
+        <section class="technologies">
+          <h2 class="technologies__title">Habilidades y herramientas</h2>
+
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-html.svg"
+                alt="HTML"
+              />
+            </li>
+
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-css.svg"
+                alt="CSS"
+              />
+            </li>
+
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-javascript.svg"
+                alt="JavaScript"
+              />
+            </li>
+
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-git.svg"
+                alt="Git"
+              />
+            </li>
+
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-github-tech.svg"
+                alt="GitHub"
+              />
+            </li>
+
+            <li class="technologies__item">
+              <img
+                class="technologies__icon"
+                src="./images/icon-openai.svg"
+                alt="OpenAI"
+              />
+            </li>
+          </ul>
+        </section>
+
+        <!-- PROYECTOS DESTACADOS -->
+        <section class="projects">
+          <h2 class="projects__title">Proyectos destacados</h2>
+
+          <ul class="projects__list">
+            <!-- PROYECTO 1 -->
+            <li class="project-card">
+              <div class="project-card__image-container">
+                <img
+                  class="project-card__image"
+                  src="./images/project-coffeeshop.png"
+                  alt="Página web de una cafetería"
+                />
+
+                <div class="project-card__overlay"></div>
+
+                <div class="project-card__technologies">
+                  <img
+                    class="project-card__technology-icon"
+                    src="./images/icon-html.svg"
+                    alt="HTML"
+                  />
+
+                  <img
+                    class="project-card__technology-icon"
+                    src="./images/icon-css.svg"
+                    alt="CSS"
+                  />
+                </div>
+              </div>
+
+              <h3 class="project-card__title">Página web de una cafetería</h3>
+
+              <p class="project-card__description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional. Logro: Implementé desde cero
+                el diseño completo de la página, organicé el proyecto con buenas
+                prácticas y publiqué la versión final utilizando GitHub Pages.
+              </p>
+
+              <div class="project-card__links">
+                <a
+                  class="project-card__link project-card__link--demo"
+                  href="#"
+                  target="_blank"
+                  aria-label="Ver demo en vivo de la página web de una cafetería"
+                >
+                  <img
+                    class="project-card__link-icon"
+                    src="./images/icon-external-link.svg"
+                    alt=""
+                  />
+                  Demo en vivo
+                </a>
+
+                <a
+                  class="project-card__link project-card__link--github"
+                  href="#"
+                  target="_blank"
+                  aria-label="Ver código de la página web de una cafetería en GitHub"
+                >
+                  <img
+                    class="project-card__link-icon"
+                    src="./images/icon-github-link.svg"
+                    alt=""
+                  />
+                  GitHub
+                </a>
+              </div>
+            </li>
+
+            <!-- PROYECTO 2 -->
+            <li class="project-card">
+              <div class="project-card__image-container">
+                <img
+                  class="project-card__image"
+                  src="./images/project-ai.png"
+                  alt="Vista previa de Mi proyecto"
+                />
+
+                <div class="project-card__overlay"></div>
+
+                <div class="project-card__technologies">
+                  <img
+                    class="project-card__technology-icon"
+                    src="./images/icon-javascript.svg"
+                    alt="JavaScript"
+                  />
+
+                  <img
+                    class="project-card__technology-icon"
+                    src="./images/icon-react.svg"
+                    alt="React"
+                  />
+                </div>
+              </div>
+
+              <h3 class="project-card__title">Mi proyecto</h3>
+
+              <p class="project-card__description">Descripción del proyecto</p>
+
+              <div class="project-card__links">
+                <a
+                  class="project-card__link project-card__link--demo"
+                  href="#"
+                  target="_blank"
+                  aria-label="Ver demo en vivo de Mi proyecto"
+                >
+                  <img
+                    class="project-card__link-icon"
+                    src="./images/icon-external-link.svg"
+                    alt=""
+                  />
+                  Demo en vivo
+                </a>
+
+                <a
+                  class="project-card__link project-card__link--github"
+                  href="#"
+                  target="_blank"
+                  aria-label="Ver código de Mi proyecto en GitHub"
+                >
+                  <img
+                    class="project-card__link-icon"
+                    src="./images/icon-github-link.svg"
+                    alt=""
+                  />
+                  GitHub
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- CONTACTO -->
+      <footer class="footer" id="contact">
+        <div class="footer__ellipse" aria-hidden="true"></div>
+
+        <h2 class="footer__title">Contacto</h2>
+
+        <a class="footer__email" href="mailto:student@tripleten.com">
+          student@tripleten.com
+        </a>
+
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a
+              class="footer__link"
+              href="#"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <img
+                class="footer__icon"
+                src="./images/icon-linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a
+              class="footer__link"
+              href="#"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <img
+                class="footer__icon"
+                src="./images/icon-instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a
+              class="footer__link"
+              href="#"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <img
+                class="footer__icon"
+                src="./images/icon-facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__link" href="#" target="_blank" aria-label="X">
+              <img class="footer__icon" src="./images/icon-x.svg" alt="X" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
