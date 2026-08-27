@@ -257,9 +257,11 @@ h3 {
 .project-card {
   width: 100%;
   min-width: 0;
-  height: 640px;
+  min-height: 640px;
+
   display: flex;
   flex-direction: column;
+
   background-color: #1c1c1c;
 }
 
