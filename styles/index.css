@@ -497,10 +497,13 @@ h3 {
 
   .profile {
     padding-top: 40px;
+    justify-content: flex-start;
+    gap: 38px;
   }
 
   .profile__content {
     padding-top: 0;
+    width: calc(100% - 254px);
   }
 
   .profile__title {
@@ -510,15 +513,6 @@ h3 {
   .profile__image {
     width: 216px;
     height: 280px;
-  }
-
-  .profile {
-    justify-content: flex-start;
-    gap: 38px;
-  }
-
-  .profile__content {
-    width: calc(100% - 254px);
   }
 
   .profile__ellipse {

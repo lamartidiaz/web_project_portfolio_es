@@ -25,3 +25,7 @@ GitHub, descarga de CV, demostraciones de proyectos y medios de contacto.
 - Mejorar la accesibilidad del sitio siguiendo buenas prácticas de WCAG.
 - Optimizar imágenes y recursos para mejorar el rendimiento y los tiempos de carga.
 - Mantener actualizado el CV y la información profesional.
+
+## Demo en vivo
+
+[Ver portafolio publicado](https://lamartidiaz.github.io/web_project_portfolio_es/)
